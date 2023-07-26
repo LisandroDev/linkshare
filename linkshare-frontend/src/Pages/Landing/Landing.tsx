@@ -1,7 +1,8 @@
 import Hero from './components/Hero.tsx';
 import Features from './components/Features.tsx';
 import Faq from './components/Faq.tsx';
-import Footer from '../../components/Footer.tsx';
+import Join from './components/Join.tsx';
+import Resources from './components/Resources.tsx';
 
 function Landing() {
   return (
@@ -9,6 +10,8 @@ function Landing() {
         <Hero />
         <Features />
         <Faq />
+        <Resources />
+        <Join />
       </main>
   );
 }
