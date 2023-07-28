@@ -7,7 +7,7 @@ import {
 
 function Features() {
   return (
-    <div className='flex flex-col  m-8 gap-8'>
+    <div className='flex flex-col m-8  gap-8'>
         <h1 className='text-3xl font-semibold place-self-center'>
           Features{' '}
           <div

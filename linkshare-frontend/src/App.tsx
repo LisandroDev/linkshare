@@ -1,17 +1,23 @@
 import { LazyMotion, domAnimation } from 'framer-motion';
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 import Landing from './Pages/Landing/Landing.tsx';
-import Navbar from './components/Navbar.tsx';
-import Footer from './components/Footer.tsx';
+import Register from './Pages/Register/Register.tsx';
+import Creator from './Pages/Creator/Creator.tsx';
+import Login from './Pages/Login/Login.tsx';
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <LazyMotion features={domAnimation}>
-        <Landing />
-      </LazyMotion>
-      <Footer />
+        <LazyMotion features={domAnimation}>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/creator" element={<Creator />} />
+          </Routes>
+        </LazyMotion>
     </>
   );
 }

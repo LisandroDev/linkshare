@@ -1,13 +1,25 @@
+//TODO: Add Button Animations;
+
+import { Link } from 'react-router-dom';
 import Logo from './Logo';
 
 function Navbar() {
   return (
-    <nav className=' p-8  lg:absolute sm:pb-24 bg-[#556BDA] w-full'>
+    <nav className=' p-8 lg:absolute sm:pb-24 bg-[#556BDA] w-full'>
       <div className='flex flex-col items-center gap-y-4  sm:flex-row sm:justify-between'>
         <Logo />
         <div className='flex gap-8 mr-4'>
-          <button className="text-white font-semibold border rounded-md py-2 px-4 ">Log In</button>
-          <button className='text-white font-semibold border rounded-md py-2 px-4'>Sign Up</button>
+          <Link to='/login'>
+            <button className='text-white font-semibold border rounded-md py-2 px-4'>
+              Log In
+            </button>
+          </Link>
+
+          <Link to='/register'>
+            <button className='text-white font-semibold border rounded-md py-2 px-4'>
+              Sign Up
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

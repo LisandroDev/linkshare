@@ -1,12 +1,13 @@
-import PhoneMockup from "./components/PhoneMockup.tsx";
+import PhoneMockup from './components/PhoneMockup.tsx';
 
-function Creator(){
-    return(
-        <div>
-            <PhoneMockup />
-            Soy Creator
-        </div>
-    )
+function Creator() {
+  return (
+    <main className='w-screen h-screen bg-'>
+      <div className='flex'>
+        <PhoneMockup />
+      </div>
+    </main>
+  );
 }
 
-export default Creator
+export default Creator;
