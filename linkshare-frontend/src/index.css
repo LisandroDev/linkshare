@@ -4,11 +4,14 @@
 
 :root {
   background-color: #FAFAFA;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
+
   
 
 }
 
 html,body{
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
 }
