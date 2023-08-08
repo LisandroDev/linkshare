@@ -7,7 +7,7 @@ function Avatar() {
     const { imageSrc, shape } = useProfileContext().profile.avatar;
 
     return (
-        <img src={imageSrc ? imageSrc : defaultImg} className={`w-20 ${shapeToClass(shape)}`} alt='Avatar image' />
+        <img src={imageSrc ? imageSrc : defaultImg} className={`w-28  shadow-lg ${shapeToClass(shape)}`} alt='Avatar image' />
     )
 }
 

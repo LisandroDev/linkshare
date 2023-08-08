@@ -2,7 +2,7 @@ export type Shape = 'CIRCLE' | 'ROUNDED' | 'SQUARE';
 
 type IconLink = {
     shape: Shape,
-    iconSrc: string,
+    icon: string,
     backgroundColor: string,
 }
 

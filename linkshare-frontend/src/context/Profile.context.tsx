@@ -19,8 +19,8 @@ export function ProfileProvider({ children }: ProfileProviderProps) {
             imageSrc: '',
             shape: 'CIRCLE',
         },
-        name: '',
-        description: '',
+        name: 'Jorge',
+        description: 'Full Stack',
         iconsLinks: [],
         boxLinks: [],
         footer: {
