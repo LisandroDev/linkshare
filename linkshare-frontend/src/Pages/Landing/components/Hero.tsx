@@ -1,4 +1,5 @@
 import { m } from 'framer-motion';
+import heroImage from '../../../assets/heroimage.png'
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
         </p>
       </m.div>
       <img
-        src='../src/assets/heroimage.png'
+        src={heroImage}
         className='h-auto sm:h-[900px] place-self-center lg:place-self-end'
         alt=''
       />
