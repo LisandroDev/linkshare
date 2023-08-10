@@ -3,7 +3,7 @@ import heroImage from '../../../assets/heroimage.png'
 
 function Hero() {
   return (
-    <section className='flex flex-col bg-[#556BDA] h-screen gap-y-12  justify-around lg:h-screen lg:gap-24 lg:flex-row '>
+    <section className='flex flex-col bg-[#556BDA]   h-screen gap-y-12  justify-around lg:h-screen lg:gap-24 lg:flex-row '>
       <m.div
         initial={{ opacity: 0 }}
         viewport={{once: true}}

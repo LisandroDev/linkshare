@@ -6,7 +6,7 @@ import Resources from './components/Resources.tsx';
 
 function Landing() {
   return (
-      <main className='h-fit flex flex-col  gap-y-28'>
+      <main className='h-fit w-screen overflow-x-hidden flex flex-col  gap-y-28'>
         <Hero />
         <Features />
         <Faq />
