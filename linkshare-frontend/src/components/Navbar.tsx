@@ -2,7 +2,7 @@ import Logo from './Logo';
 
 function Navbar() {
   return (
-    <nav className='p-8 sm:pb-24 bg-[#556BDA] w-full'>
+    <nav className='p-8 sm:pb-24  border-[#556BDA] bg-[#556BDA] '>
       <div className='flex flex-col items-center gap-y-4  sm:flex-row sm:justify-between'>
         <Logo />
         <div className='flex gap-8 mr-4'>
